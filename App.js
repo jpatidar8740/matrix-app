@@ -20,12 +20,12 @@ require('core-js/fn/array/find')
 //firebase initiliazation
 const firebase = require('firebase');
 var config = {
-  apiKey: "AIzaSyBFvSUAnLjNX17nMaYDFQWNImMXZnG4uUE",
-  authDomain: "adjoint-matrix.firebaseapp.com",
-  databaseURL: "https://adjoint-matrix.firebaseio.com",
-  projectId: "adjoint-matrix",
-  storageBucket: "adjoint-matrix.appspot.com",
-  messagingSenderId: "934177255539"
+  apiKey: "#########################",
+  authDomain: "######################",
+  databaseURL: "###################",
+  projectId: "#",
+  storageBucket: "###",
+  messagingSenderId: "#####################################"
 };
 
 firebase.initializeApp(config);
@@ -40,7 +40,7 @@ import PushController from './src/components/pushNotification';
 
 
 
-//const CLIENT_ID = '912f6f2f-9674-4d6f-b34a-4f454afdf16c';
+//const CLIENT_ID = '#########################################';
 
 const AppContainer = createAppContainer(TabNav)
 
