@@ -1,0 +1,15 @@
+Error: 1 WebView Not working?
+Sol: Will not work if nested in another component. and flex: 1 for view if nested.
+
+Error: TypeError: undefined is not a function (evaluating '_iterator[typeof Symbol === "function" ? Symbol.iterator : "@@iterator"]()');
+Sol: https://stackoverflow.com/questions/51459812/react-native-iterator-typeof-symbol-error.
+
+Error: error while updating property 'transform' in RCTView
+Sol: toValue: 8.
+
+Erroe: JS heap out of memory
+Sol: "runtimeArgs": [
+            "--max-old-space-size=4096"
+        ] in launch.json
+
+
