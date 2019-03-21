@@ -55,4 +55,3 @@ export default class App extends React.Component {
   }
 }
 
-// Secret phelPGWM3](xubYDE7335*(
